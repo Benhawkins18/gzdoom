@@ -83,7 +83,7 @@
     <PostBuildEvent>
       <Message>Checking gzdoom.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)gzdoom.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
+copy "$(ProjectDir)gzdoom.pk3" "$(SolutionDir)gzdoom.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -91,7 +91,7 @@ copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
     <PostBuildEvent>
       <Message>Checking gzdoom.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)gzdoom.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
+copy "$(ProjectDir)gzdoom.pk3" "$(SolutionDir)gzdoom.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -99,7 +99,7 @@ copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
     <PostBuildEvent>
       <Message>Checking gzdoom.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)gzdoom.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
+copy "$(ProjectDir)gzdoom.pk3" "$(SolutionDir)gzdoom.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -107,7 +107,7 @@ copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
     <PostBuildEvent>
       <Message>Checking gzdoom.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)gzdoom.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)gzdoom.pk3" "$(TargetDir)gzdoom.pk3"
+copy "$(ProjectDir)gzdoom.pk3" "$(SolutionDir)gzdoom.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>

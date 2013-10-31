@@ -84,7 +84,7 @@
     <PostBuildEvent>
       <Message>Checking lights.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)lights.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
+copy "$(ProjectDir)lights.pk3" "$(SolutionDir)lights.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -92,7 +92,7 @@ copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
     <PostBuildEvent>
       <Message>Checking lights.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)lights.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
+copy "$(ProjectDir)lights.pk3" "$(SolutionDir)lights.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -100,7 +100,7 @@ copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
     <PostBuildEvent>
       <Message>Checking lights.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)lights.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
+copy "$(ProjectDir)lights.pk3" "$(SolutionDir)lights.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -108,7 +108,7 @@ copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
     <PostBuildEvent>
       <Message>Checking lights.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)lights.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)lights.pk3" "$(TargetDir)lights.pk3"
+copy "$(ProjectDir)lights.pk3" "$(SolutionDir)lights.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
