@@ -84,7 +84,7 @@
     <PostBuildEvent>
       <Message>Checking brightmaps.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)brightmaps.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
+copy "$(ProjectDir)brightmaps.pk3" "$(TargetDir)brightmaps.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -92,7 +92,7 @@ copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
     <PostBuildEvent>
       <Message>Checking brightmaps.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)brightmaps.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
+copy "$(ProjectDir)brightmaps.pk3" "$(TargetDir)brightmaps.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -100,7 +100,7 @@ copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
     <PostBuildEvent>
       <Message>Checking brightmaps.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)brightmaps.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
+copy "$(ProjectDir)brightmaps.pk3" "$(TargetDir)brightmaps.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -108,7 +108,7 @@ copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
     <PostBuildEvent>
       <Message>Checking brightmaps.pk3...</Message>
       <Command>"$(SolutionDir)tools\zipdir\zipdir.exe" -ud "$(ProjectDir)brightmaps.pk3" "$(ProjectDir)static"
-copy "$(ProjectDir)brightmaps.pk3" "$(SolutionDir)..\brightmaps.pk3"
+copy "$(ProjectDir)brightmaps.pk3" "$(TargetDir)brightmaps.pk3"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>

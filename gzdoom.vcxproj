@@ -73,33 +73,33 @@
     <OutDir>$(ProjectDir)Release\</OutDir>
     <IntDir>$(ProjectDir)Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <ExecutablePath>C:\Users\Jonathan\AppData\Local\nasm;C:\Program Files (x86)\Git\bin;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(NASM);$(FMOD_API)\api;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(FMOD_API)\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(FMOD_API)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(ProjectDir)Release\</OutDir>
     <IntDir>$(ProjectDir)Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <ExecutablePath>C:\Users\Jonathan\AppData\Local\nasm;C:\Program Files (x86)\Git\bin;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(NASM);$(FMOD_API)\api;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(FMOD_API)\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(FMOD_API)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(ProjectDir)Debug\</OutDir>
     <IntDir>$(ProjectDir)Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
-    <ExecutablePath>C:\Users\Jonathan\AppData\Local\nasm;C:\Program Files (x86)\Git\bin;$(ExecutablePath)</ExecutablePath>
-    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(FMOD_API)\inc;$(IncludePath)</IncludePath>
+    <ExecutablePath>$(NASM);$(FMOD_API)\api;$(ExecutablePath)</ExecutablePath>
+    <LibraryPath>$(FMOD_API)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(ProjectDir)Debug\</OutDir>
     <IntDir>$(ProjectDir)Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <ExecutablePath>C:\Users\Jonathan\AppData\Local\nasm;C:\Program Files (x86)\Git\bin;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(NASM);$(FMOD_API)\api;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(FMOD_API)\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(FMOD_API)\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <PreBuildEvent>
