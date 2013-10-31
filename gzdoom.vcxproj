@@ -150,7 +150,7 @@
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>shfolder.lib;gdi32.lib;user32.lib;comctl32.lib;shell32.lib;advapi32.lib;comdlg32.lib;ole32.lib;dxguid.lib;dsound.lib;dinput8.lib;strmiids.lib;wsock32.lib;winmm.lib;fmodex_vc.lib;setupapi.lib;ws2_32.lib;oleaut32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>NotSet</ShowProgress>
-      <OutputFile>$(TargetDir)\$(TargetName).exe</OutputFile>
+      <OutputFile>$(TargetPath)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DelayLoadDLLs>fmodex.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -218,7 +218,7 @@
     <Link>
       <AdditionalDependencies>ddraw.lib;dxguid.lib;dinput8.lib;comctl32.lib;strmiids.lib;wsock32.lib;ws2_32.lib;winmm.lib;fmodex64_vc.lib;setupapi.lib;oleaut32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>NotSet</ShowProgress>
-      <OutputFile>$(TargetDir)\$(TargetName)_d.exe</OutputFile>
+      <OutputFile>$(TargetPath)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DelayLoadDLLs>fmodex64.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -275,7 +275,7 @@
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>gdi32.lib;user32.lib;comctl32.lib;shell32.lib;advapi32.lib;comdlg32.lib;ole32.lib;dxguid.lib;dsound.lib;dinput8.lib;strmiids.lib;wsock32.lib;winmm.lib;setupapi.lib;ws2_32.lib;oleaut32.lib;fmodex_vc.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(TargetDir)\$(TargetName)_d.exe</OutputFile>
+      <OutputFile>$(TargetPath)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>libcmt;msvcrtd;msvcrt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <DelayLoadDLLs>fmodex.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
@@ -328,7 +328,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>dxguid.lib;ddraw.lib;dinput8.lib;comctl32.lib;strmiids.lib;wsock32.lib;winmm.lib;fmodex64_vc.lib;setupapi.lib;ws2_32.lib;oleaut32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(TargetDir)\$(TargetName)_d.exe</OutputFile>
+      <OutputFile>$(TargetPath)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>msvcrtd;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <DelayLoadDLLs>fmodex64.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
