@@ -31,3 +31,6 @@
 *.lastbuildstate
 *.sdf
 *.opensdf
+*.idb
+*.pk3
+*.wad
